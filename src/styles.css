@@ -1,0 +1,82 @@
+/***
+
+/* Drone image size and width*/
+
+.image {
+  width: 416px;
+  height: 416px;
+  
+  
+ 
+}
+  
+/* Header text with details.
+ */
+ 
+.h4{
+    text-align:center
+}
+
+
+/*
+*Button to increase and decrease as well reset when value is 0.
+*/
+.counter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+}
+ 
+.counter h1 {
+    color: rgb(16, 0, 54);
+    font-size: 40px;
+    font-family: cursive;
+}
+ 
+.counter__output {
+    font-size: 40px;
+    color: rgb(lightgrey);
+}
+ 
+.btn__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+}
+ 
+.control__btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(255,165,0);
+    border: 1px solid rgb(16, 0, 54);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+ 
+.control__btn:hover {
+    background-color: rgb(255,165,0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(16, 0, 54);
+}
+ 
+.reset {
+    width: 75px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(255,165,0);
+    border: 1px solid rgb(16, 0, 54);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+ 
+.reset:hover {
+    background-color: rgb(255,165,0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(16, 0, 54);
+}
